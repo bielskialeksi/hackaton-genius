@@ -66,6 +66,39 @@ div .bg-nav{
     background-color: #80C660;
 }
 
+.nav-button{
+    background-image:url("../img/bg-button.png") ;
+    width: 189px !important;
+    height: 50px!important ;
+    margin-top:20px!important;
+    background-size:contain ;
+    text-align: center;
+    padding-top: 5px;
+}
+.sidenav-button{
+    background-image:url("../img/bg-button.png") ;
+    width: 265px !important;
+    height: 70px!important ;
+    margin-top:20px!important;
+    background-size:contain ;
+    text-align: center;
+    
+    padding-top: 10px !important;
+}
+.text-white{
+    color: white!important;
+}
+nav{
+    background-color: #EEF0EF ;
+    height: 90px !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer{
+    background-color: #EEF0EF;
+}
+
 .plus-bigger {
     padding-left: 30px;
     padding-right: 30px;
@@ -155,3 +188,7 @@ nav{
     margin-top: 30px;
 }
 
+.footer-text{
+    overflow-wrap: break-word;
+    text-align: center;
+}
