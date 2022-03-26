@@ -40,8 +40,27 @@ div .bg-nav{
     text-align: center;
     padding-top: 5px;
 }
+.nav-button{
+    background-image:url("../img/bg-button.png") ;
+    width: 189px !important;
+    height: 50px!important ;
+    margin-top:20px!important;
+    background-size:contain ;
+    text-align: center;
+    padding-top: 5px;
+}
+.sidenav-button{
+    background-image:url("../img/bg-button.png") ;
+    width: 265px !important;
+    height: 70px!important ;
+    margin-top:20px!important;
+    background-size:contain ;
+    text-align: center;
+    
+    padding-top: 10px !important;
+}
 .text-white{
-    color: white;
+    color: white!important;
 }
 nav{
     background-color: #EEF0EF ;
