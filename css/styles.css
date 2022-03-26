@@ -13,7 +13,16 @@ h1 {
 
 h2 {
     margin-top: 80px;
+}
+
+.giga-h2 {
+    margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.last {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h2, h3 {
@@ -25,7 +34,7 @@ div .bg-nav{
 }
 
 .more-padding p {
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .navbar-img{
@@ -50,6 +59,18 @@ div .bg-nav{
     display: inline-block;
 
 }
+
+.plus, .plus-green, .plus-bigger {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: #EF5656;
+}
+
+.plus-green {
+    background-color: #80C660;
+}
+
 .nav-button{
     background-image:url("../img/bg-button.png") ;
     width: 189px !important;
@@ -96,7 +117,12 @@ footer{
     background-color: #80C660;
 }
 
-.plus:hover {
+.plus-bigger {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.plus:hover, .plus-bigger:hover {
     background-color: #e63333;
 }
 
@@ -151,8 +177,8 @@ nav{
 .more-padding {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 980px) {
@@ -184,3 +210,7 @@ nav{
     margin-top: 30px;
 }
 
+.footer-text{
+    overflow-wrap: break-word;
+    text-align: center;
+}
