@@ -69,6 +69,10 @@ nav{
     padding-right: 5%;
 }
 
+footer{
+    background-color: #EEF0EF 
+}
+
 #col-color {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0,0,0,0.65) 37.5%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.65) 62.5%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 100%);
 }
@@ -123,3 +127,8 @@ nav{
         margin-bottom: 40px;
     }
   }
+
+.footer-text{
+    overflow-wrap: break-word;
+    text-align: center;
+}
