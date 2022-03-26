@@ -1,2 +1,0 @@
-# hackaton-genius
-#BLABKA

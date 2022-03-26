@@ -5,3 +5,79 @@
 #col-color {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0,0,0,0.65) 37.5%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.65) 62.5%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 100%);
 }
+
+div .bg-nav{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.navbar-img{
+    height: 100px;
+}
+
+.bold{
+    font-weight: bolder !important;
+    font-size: large!important;
+    color: black!important;
+    margin-top: 10px;
+}
+
+
+nav{
+    background-color: #EEF0EF ;
+    height: 90px !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main-img {
+    max-width: 50% !important;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.main-section {
+    position: relative !important;
+}
+
+.zig, .rond, .tri {
+    position: absolute !important;
+    
+}
+
+.zig {
+    top: 20%;
+    left: 0;
+}
+
+.rond {
+    top: 0;
+    right: 0;
+}
+
+.tri {
+    top: 60%;
+    right: 0;
+}
+
+@media only screen and (max-width: 980px) {
+    .zig {
+        top: 40%;
+        width: 20% !important;
+    }
+
+    .rond {
+        width: 20% !important;
+    }
+
+    .tri {
+        top: 70%;
+        width: 20% !important;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+  }
