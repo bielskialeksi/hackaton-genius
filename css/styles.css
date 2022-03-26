@@ -1,3 +1,8 @@
+html{
+    padding: 0!important;
+}
+
+
 * {
     font-family: 'Baloo Thambi 2', cursive !important;
 }
@@ -18,6 +23,11 @@ h2, h3 {
 div .bg-nav{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.more-padding p {
+    font-size: 20px;
+}
+
 .navbar-img{
     height: 100px;
 }
@@ -31,14 +41,14 @@ div .bg-nav{
     color: black!important;
     margin-top: 10px;
 }
-.nav-button{
-    background-image:url("../img/bg-button.png") ;
-    width: 189px !important;
-    height: 50px!important ;
-    margin-top:20px!important;
-    background-size:contain ;
+.plus{
     text-align: center;
-    padding-top: 5px;
+    margin-top: 18px!important;
+
+}
+.inline{
+    display: inline-block;
+
 }
 .nav-button{
     background-image:url("../img/bg-button.png") ;
@@ -70,7 +80,38 @@ nav{
 }
 
 footer{
-    background-color: #EEF0EF 
+    background-color: #EEF0EF ;
+    margin-bottom:0!important;
+    
+}
+
+.plus, .plus-green {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: #EF5656;
+}
+
+.plus-green {
+    background-color: #80C660;
+}
+
+.plus:hover {
+    background-color: #e63333;
+}
+
+.plus-green:hover {
+    background-color: #6bc740;
+}
+
+.text-white{
+    color: white;
+}
+nav{
+    background-color: #EEF0EF ;
+    height: 90px !important;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #col-color {
@@ -107,6 +148,13 @@ footer{
     right: 0;
 }
 
+.more-padding {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 @media only screen and (max-width: 980px) {
     .zig {
         top: 40%;
@@ -132,3 +180,7 @@ footer{
     overflow-wrap: break-word;
     text-align: center;
 }
+.three-things {
+    margin-top: 30px;
+}
+
