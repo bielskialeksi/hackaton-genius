@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "singularName": "game",
+    "pluralName": "games",
+    "displayName": "Games",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0
+    },
+    "sales": {
+      "type": "integer",
+      "default": 0
+    },
+    "rating": {
+      "type": "integer",
+      "max": 20
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::categorie.categorie"
+    },
+    "main_description": {
+      "type": "text"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "editor": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "promotion": {
+      "type": "integer",
+      "max": 100,
+      "min": 0
+    }
+  }
+}
