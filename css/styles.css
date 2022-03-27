@@ -109,7 +109,17 @@ div .bg-nav{
 .text-white{
     color: white!important;
 }
+
+.stickynav{
+    display: flex!important;
+    position: sticky!important;
+    top: 0!important;
+    z-index: 99999;
+
+}
+
 nav {
+
     background-color: #EEF0EF ;
     height: 90px !important;
     padding-left: 5%;
