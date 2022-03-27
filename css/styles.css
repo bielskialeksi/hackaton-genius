@@ -1,5 +1,6 @@
 html{
     padding: 0!important;
+    scroll-behavior: smooth!important;
 }
 
 
@@ -233,6 +234,11 @@ nav{
 .footer-text{
     overflow-wrap: break-word;
     text-align: center;
+    
+}
+li{
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;  
 }
 
 .three-things {

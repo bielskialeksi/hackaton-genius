@@ -30,9 +30,9 @@
           </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src="img/menu.png" class="navbar-menu"/></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down inline">
-            <li><a href="" class="bold">Le concept</a></li>
-            <li><a href="" class="bold">L'histoire</a></li>
-            <li><a href="" class="bold">Les questions</a></li>
+            <li><a href="#concept" class="bold">Le concept</a></li>
+            <li><a href="#histoire" class="bold">L'histoire</a></li>
+            <li><a href="#question" class="bold">Les questions</a></li>
             <li><a class="waves-effect waves-light btn plus">Donnez votre avis</a></li>
           </ul>
         </div>
@@ -40,9 +40,9 @@
     
       <ul class="center sidenav" id="mobile-demo">
         <li><img src="img/logo_nav.png" class="navbar-img"/></li>
-        <li><a href="" class="bold">Le concept</a></li>
-        <li><a href="" class="bold">L'histoire</a></li>
-        <li><a href="" class="bold">Les questions</a></li>
+        <li><a href="#concept" class="bold">Le concept</a></li>
+        <li><a href="#histoire" class="bold">L'histoire</a></li>
+        <li><a href="#question" class="bold">Les questions</a></li>
         <li><a class="waves-effect waves-light btn plus">Donnez votre avis</a></li>
       </ul>
     </header>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="center parallax-stuff">
-        <h2 class="giga-h2">Le concept</h2>
+        <h2 id="concept"class="giga-h2">Le concept</h2>
         <div class="parallax-container valign-wrapper">
             <div class="section valign-wrapper" id="section-parallax">
                 <div class="row white-text center" id="col-color">
@@ -125,7 +125,7 @@
         <a class="waves-effect waves-light btn-large plus-bigger">Donnez votre avis et restez informés</a>
     </section>
     
-    <div class="center">
+    <div id="histoire"class="center">
         <h2>L'histoire</h2>
         <section class="container section center">
             <div class="row more-padding">
@@ -142,7 +142,7 @@
         </section>
     </div>
 
-    <div class="center parallax-stuff">
+    <div id="question"class="center parallax-stuff">
         <h2 class="giga-h2-sanstop">Les questions</h2>
         <div class="parallax-container valign-wrapper">
             <div class="section valign-wrapper" id="section-parallax">
@@ -185,23 +185,38 @@
       <div class="container">
         <div class="row">
 
-          <div class="col s12 m4 l4 margin-top">
-            <p class="footer-text bold">Politique de confidentialité</p>
-            <p class="footer-text bold">Mentions légales</p>
+          <div class="col s12 m4 l4 margin-top center">
+            <ul>
+              <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Politique_de_confidentialit%C3%A9" class="footer-text bold">Politique de confidentialité</a></li>
+              <li><a href="https://fr.wikipedia.org/wiki/Mentions_l%C3%A9gales" class="footer-text bold">Mentions légales</a></li>
+            </ul>
+            
+           
           </div>
 
           <div class="col s12 m4 l4 center">
-            <img class="responsive-img" src="img/logo_nav.png" alt="salade"/>
-            <p class="footer-text bold">Le concept</p>
-            <p class="footer-text bold">L’histoire</p>
-            <p class="footer-text bold">Les questions</p>
+            <img src="img/logo_nav.png" alt="salade"/>
+            <ul>
+              <li><a href="#concept" class="footer-text bold">Le concept</a></li>
+              <li><a href="#histoire" class="footer-text bold">L’histoire</a></li>
+              <li><a href="#question" class="footer-text bold">Les questions</a></li>
+            </ul>
+            
+            
+            
           </div>
           
-          <div class="col s12 m4 l4 margin-top">
-            <p class="footer-text bold">Conditions Générales d'Utilisation</p>
-            <p class="footer-text bold">Informations de Contact</p>
-            <p class="footer-text">06 00 00 00 00</p>
-            <p class="footer-text">gigamail@lesptitshabits.fr</p>
+          <div class="col s12 m4 l4 margin-top center">
+            <ul>
+              <li><a href="https://fr.wikipedia.org/wiki/Conditions_g%C3%A9n%C3%A9rales_d%27utilisation" class="footer-text bold">Conditions Générales d'Utilisation</a></li>
+              <li><a class="footer-text bold">Informations de Contact:</a></li>
+              <li><p class="footer-text">06 00 00 00 00</p></li>
+              <li><p class="footer-text">gigamail@lesptitshabits.fr</p></li>
+            </ul>
+           
+           
+            
+            
           </div>
 
         </div>
