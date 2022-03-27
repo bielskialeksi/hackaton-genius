@@ -49,6 +49,13 @@ div .bg-nav{
 .navbar-img{
     height: 100px;
 }
+
+.end {
+    margin-bottom: 80px !important;
+}
+.test {
+    border-radius: 15px !important;
+}
 .navbar-menu{
     width: 25px;
     margin-top: 30px ;
@@ -102,7 +109,7 @@ div .bg-nav{
 .text-white{
     color: white!important;
 }
-nav{
+nav {
     background-color: #EEF0EF ;
     height: 90px !important;
     padding-left: 5%;
